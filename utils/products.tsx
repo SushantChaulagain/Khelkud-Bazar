@@ -30,7 +30,7 @@ export const products = [
         "PERFECT STROKE KEYS - Spherically-dished keys match the shape of your fingertips, offering satisfying feedback with every tap\nCOMFORT AND STABILITY - Type with confidence on a keyboard crafted for comfort, stability, and precision",
       price: 102.99,
       brand: "Reebook",
-      category: "Accesories",
+      category: "Cricket",
       inStock: true,
       images: [
         {
