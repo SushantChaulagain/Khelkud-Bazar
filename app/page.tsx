@@ -5,7 +5,7 @@ import { products } from '@/utils/products';
 import { truncateText } from '@/utils/truncateText';
 import ProductCard from './components/products/ProductCard';
 
-console.log("products", products)
+
 export default function Home() {
   return <div className="p-8">
     <Container>
