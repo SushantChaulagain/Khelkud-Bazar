@@ -113,5 +113,6 @@ const handleQtyDecrease = useCallback (() => {
         </div>
     </div> );
 }
+console.log("ProductDetails.tsx");
  
 export default ProductDetails;
