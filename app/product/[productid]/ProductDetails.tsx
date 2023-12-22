@@ -1,6 +1,7 @@
 "use client";
 
 import SetColor from "@/app/components/products/SetColor";
+import SetQuantity from "@/app/components/products/SetQuantity";
 import { Rating } from "@mui/material";
 import { useCallback, useState } from "react";
 
@@ -53,6 +54,27 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
 
     },[cartProduct.selectedImg]);
 
+   
+const handleQtyIncrease = useCallback (() => {
+
+    if(cartProduct.quantity === 99) return;
+
+    setCartProduct((prev) => {
+        return { ...prev,
+            quantity: prev.quantity + 1}
+    })
+},[cartProduct]);
+const handleQtyDecrease = useCallback (() => {
+     
+     if(cartProduct.quantity === 1) return;
+
+    setCartProduct((prev) => {
+        return { ...prev,
+            quantity: prev.quantity - 1}
+    })
+},[cartProduct]);
+
+
     return ( <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>Images</div>
         <div className='flex flex-col gap-1 text-slate-500 text-sm'>
@@ -81,7 +103,11 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
             handleColorSelect={handleColorSelect}
             />
             <Horizontal />
-            <div>Quantity</div>
+            <SetQuantity 
+            cartProduct={cartProduct}
+            handleQtyIncrease={handleQtyIncrease}
+            handleQtyDecrease={handleQtyDecrease}
+            />
             <Horizontal />
             <div>Add to cart</div>
         </div>
