@@ -1,5 +1,6 @@
 "use client";
 
+import Button from "@/app/components/button";
 import SetColor from "@/app/components/products/SetColor";
 import SetQuantity from "@/app/components/products/SetQuantity";
 import { Rating } from "@mui/material";
@@ -109,7 +110,12 @@ const handleQtyDecrease = useCallback (() => {
             handleQtyDecrease={handleQtyDecrease}
             />
             <Horizontal />
-            <div>Add to cart</div>
+            <div className="max-w-[300px]">
+            <Button
+            label="Add to Cart" onClick={() => {}}
+            
+            />
+            </div>
         </div>
     </div> );
 }
