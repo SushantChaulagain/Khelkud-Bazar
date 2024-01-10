@@ -26,6 +26,8 @@ export const CartContextProvider = (props:Props) => {
             } else {
                 updatedCart = [product];
             }
+
+            localStorage.setItem('eShopCartItems', JSON.stringify(updatedCart))
             return updatedCart;
         } )
     }, []);
