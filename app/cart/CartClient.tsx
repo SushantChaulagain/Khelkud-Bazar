@@ -2,6 +2,7 @@ import { useCart } from "@/hooks/useCart";
 import Link from "next/link";
 import { MdArrowBack } from "react-icons/md";
 import Heading from "../components/Heading";
+import Button from "../components/button";
 
 const CartClient = () => {
     const {cartProducts} = useCart()
@@ -41,6 +42,12 @@ const CartClient = () => {
             {cartProducts && cartProducts.map((item) => {
                 return <div key ={item.id}>{item.name}</div>
                 })}
+        </div>
+        <div>
+            <div className="w-[90px]">
+                <Button label="Clear Cart" onClick={() => 
+                    {}} small outline/>
+            </div>
         </div>
     </div>  );
 }
