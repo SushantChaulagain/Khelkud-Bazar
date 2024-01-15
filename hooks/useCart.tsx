@@ -1,5 +1,5 @@
 import { CartProductType } from "@/app/product/[productId]/ProductDetails";
-import { createContext, use, useCallback, useEffect, useState } from "react";
+import { createContext, use, useCallback, useContext, useEffect, useState } from "react";
 import { toast } from 'react-hot-toast';
 
 type CartContextType = {  
@@ -52,7 +52,7 @@ export const CartContextProvider = (props:Props) => {
 };
 
 export const useCart = () => {
-    const context = use(CartContext);
+    const context = useContext(CartContext);
 
     if(context === null){
         throw new Error("useCart must be used within a CartContextProvider");
