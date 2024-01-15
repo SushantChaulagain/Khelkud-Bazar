@@ -54,6 +54,14 @@ const CartClient = () => {
                     <span>$1000</span>
                     </div>
                     <p className="text-slate-500">Taxes and shipping calculated at shipping</p>
+                    <Button label="Proceed to checkout" onClick={() => 
+                    {}}/>
+                    <Link href={"/"} className="
+                    text-slate-500 flex items-center gap-1 mt-2
+                    ">
+                        <MdArrowBack/>
+                    <span>Continue Shopping</span>
+                    </Link>
             </div>
         </div>
     </div>  );
