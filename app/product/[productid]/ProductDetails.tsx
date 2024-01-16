@@ -6,10 +6,9 @@ import SetColor from "@/app/components/products/SetColor";
 import SetQuantity from "@/app/components/products/SetQuantity";
 import { useCart } from "@/hooks/useCart";
 import { Rating } from "@mui/material";
-
 import { useCallback, useEffect, useState } from "react";
 import { MdCheckCircle } from "react-icons/md";
-import { useRouter }    from 'next/navigation';
+import { useRouter } from 'next/navigation';
 
 interface ProductDetailsProps {
     product: any
