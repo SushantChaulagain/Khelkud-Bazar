@@ -1,30 +1,30 @@
 export const product = {
   id: "648437b38c44d52b9542e340",
-  name: "Apple iPhone 12, 64GB",
+  name: "NikePremier 3",
   description:
-    'The product is refurbished, fully functional, and in excellent condition. Backed by the 90-day E~Shop Renewed Guarantee.\n- This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.\n- This product is in "Excellent condition". The screen and body show no signs of cosmetic damage visible from 12 inches away.\n- This product will have a battery that exceeds 80% capacity relative to new.\n- Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.\n- Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.\n- This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.\n- Refurbished phones are not guaranteed to be waterproof.',
+    'The Nike Premier 3 gets back to the basics with a timeless silhouette wrapped in supple synthetic leather—helping you to move confidently as an unstoppable force on the pitch.Tuned for touch synthetic leather in the upper is soft for heightened touch. The lookFold-over tongue features a cut line to let you choose between a traditional or modern look.Grip and Go conical studs provide the traction you need for high speeds.',
   price: 40,
-  brand: "Apple",
-  category: "Phone",
+  brand: "Nike",
+  category: "Football",
   inStock: true,
   images: [
     {
       color: "Black",
       colorCode: "#000000",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Fiphone%2012%20black.png?alt=media&token=8fe19551-173a-4550-9d02-20afffc79b12",
+        "https://media.istockphoto.com/id/671028562/photo/black-leather-football-shoes-or-soccer-boots-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=g9aEs6Zo5s8KePtJyuAX-FSJzGDtIc4BOYOuoKaphdk=",
     },
     {
       color: "Blue",
       colorCode: " #0000FF",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Fiphone%2012%20blue.png?alt=media&token=ede757d2-b631-4451-b80c-123861f16c92",
+        "https://media.istockphoto.com/id/1384883298/photo/football-boots-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=AEA9Y9XzCDXixQlFTedEzJZyElGhpZcI5b2fsXVumAw=",
     },
     {
-      color: "Red",
-      colorCode: "#FF0000",
+      color: "Yellow",
+      colorCode: "#FFFF00",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Fiphone%2012%20red.png?alt=media&token=945e1ffb-953e-467a-8325-5a8fbbbf3153",
+        "https://media.istockphoto.com/id/1326260750/photo/yellow-soccer-shoes-on-a-white-background-sports-shoes-for-playing-football.jpg?s=2048x2048&w=is&k=20&c=rxrH_E9SNkbhlARV2G3JPBGcXp6TWePv1v9IlFcfba4=",
     },
   ],
   reviews: [
@@ -34,7 +34,7 @@ export const product = {
       productId: "648437b38c44d52b9542e340",
       rating: 4,
       comment:
-        "good enough. I like the camera and casing. the delivery was fast too.",
+        "good enough. I like the color and studs. the delivery was fast too.",
       createdDate: "2023-06-26T15:53:44.483Z",
       user: {
         id: "6499b184b0e9a8c8709821d3",

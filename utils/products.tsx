@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "64a654593e91b8e73a351e9b",
-    name: "iphone 14",
+    name: "Basketball",
     description: "Short description",
     price: 2999,
     brand: "apple",
@@ -12,7 +12,7 @@ export const products = [
         color: "White",
         colorCode: "#FFFFFF",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2F1694245643713-iphone14-white.png?alt=media&token=2486cd23-8aa9-449e-8563-8c8a3278d0b4",
+          "https://media.istockphoto.com/id/183256716/photo/ball-and-basketball-court.jpg?s=2048x2048&w=is&k=20&c=LPDnwUmZp6FaxdtsY-LiWleOWDN4RklUeGifvxgibsE=",
       },
       {
         color: "Gray",
@@ -25,10 +25,10 @@ export const products = [
   },
   {
     id: "64a4ebe300900d44bb50628a",
-    name: "Logitech MX Keys Advanced Wireless Illuminated Keyboard, Tactile Responsive Typing, Backlighting, Bluetooth, USB-C, Apple macOS, Microsoft Windows, Linux, iOS, Android, Metal Build (Black)",
+    name: "Cricket Bat (1 kg)-Pitchvision Kahuna English Willow",
     description:
       "PERFECT STROKE KEYS - Spherically-dished keys match the shape of your fingertips, offering satisfying feedback with every tap\nCOMFORT AND STABILITY - Type with confidence on a keyboard crafted for comfort, stability, and precision",
-    price: 102.99,
+    price: 8000,
     brand: "logitech",
     category: "Accesories",
     inStock: true,
@@ -37,7 +37,7 @@ export const products = [
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Flogitech-graphite.png?alt=media&token=d07334d8-ab2b-4648-a38b-2a062a1a49bc",
+          "https://media.istockphoto.com/id/177491473/photo/cricket-bat-and-ball.jpg?s=2048x2048&w=is&k=20&c=mzUG9oDRUWYfozvb4BWBFOJ55aWMIElCm0HYNJrUBWI=",
       },
     ],
     reviews: [
@@ -65,31 +65,31 @@ export const products = [
   },
   {
     id: "648437b38c44d52b9542e340",
-    name: "Apple iPhone 12, 64GB",
+    name: "NikePremier 3",
     description:
-      'The product is refurbished, fully functional, and in excellent condition. Backed by the 90-day E~Shop Renewed Guarantee.\n- This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.\n- This product is in "Excellent condition". The screen and body show no signs of cosmetic damage visible from 12 inches away.\n- This product will have a battery that exceeds 80% capacity relative to new.\n- Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.\n- Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.\n- This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.\n- Refurbished phones are not guaranteed to be waterproof.',
-    price: 40,
-    brand: "Apple",
-    category: "Phone",
+      'The Nike Premier 3 gets back to the basics with a timeless silhouette wrapped in supple synthetic leather—helping you to move confidently as an unstoppable force on the pitch.Tuned for touch synthetic leather in the upper is soft for heightened touch. The lookFold-over tongue features a cut line to let you choose between a traditional or modern look.Grip and Go conical studs provide the traction you need for high speeds.',
+    price: 25000,
+    brand: "Nike",
+    category: "Football",
     inStock: true,
     images: [
       {
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Fiphone%2012%20black.png?alt=media&token=8fe19551-173a-4550-9d02-20afffc79b12",
+          "https://media.istockphoto.com/id/671028562/photo/black-leather-football-shoes-or-soccer-boots-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=g9aEs6Zo5s8KePtJyuAX-FSJzGDtIc4BOYOuoKaphdk=",
       },
       {
         color: "Blue",
         colorCode: " #0000FF",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Fiphone%2012%20blue.png?alt=media&token=ede757d2-b631-4451-b80c-123861f16c92",
+          "https://media.istockphoto.com/id/1384883298/photo/football-boots-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=AEA9Y9XzCDXixQlFTedEzJZyElGhpZcI5b2fsXVumAw=",
       },
       {
-        color: "Red",
-        colorCode: "#FF0000",
+        color: "Yellow",
+        colorCode: "#FFFF00",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Fiphone%2012%20red.png?alt=media&token=945e1ffb-953e-467a-8325-5a8fbbbf3153",
+          "https://media.istockphoto.com/id/1326260750/photo/yellow-soccer-shoes-on-a-white-background-sports-shoes-for-playing-football.jpg?s=2048x2048&w=is&k=20&c=rxrH_E9SNkbhlARV2G3JPBGcXp6TWePv1v9IlFcfba4=",
       },
     ],
     reviews: [
@@ -138,10 +138,10 @@ export const products = [
   },
   {
     id: "64a4e9e77e7299078334019f",
-    name: "Logitech MX Master 2S Wireless Mouse – Use on Any Surface, Hyper-Fast Scrolling, Ergonomic Shape, Rechargeable, Control Upto 3 Apple Mac and Windows Computers, Graphite",
+    name: "Badminton Racquet LI-NING G-Force 3900 Superlite White, Blue Unstrung (Pack of: 1, 79 g)",
     description:
       "Cross computer control: Game changing capacity to navigate seamlessly on 3 computers, and copy paste text, images, and files from 1 to the other using Logitech flow\nDual connectivity: Use with upto 3 Windows or Mac computers via included Unifying receiver or Bluetooth Smart wireless technology. Gesture button- Yes",
-    price: 70,
+    price: 3000,
     brand: "logitech",
     category: "Accesories",
     inStock: true,
@@ -150,17 +150,17 @@ export const products = [
         color: "Graphite",
         colorCode: " #383838",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2Flogitech-graphite.png?alt=media&token=d07334d8-ab2b-4648-a38b-2a062a1a49bc",
+          "https://media.istockphoto.com/id/491525908/photo/close-up-of-a-badminton-racket.jpg?s=2048x2048&w=is&k=20&c=UdpQQOjUnIbsT95NuO2bORkGVqq9PCkTpU5EnR3k0iU=",
       },
     ],
     reviews: [],
   },
   {
     id: "649d775128b6744f0f497040",
-    name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
+    name: 'Cosco Hurricane Football ',
     description:
       'Bluetooth Call and Message Reminder: The smart watch is equipped with HD speaker, after connecting to your phone via Bluetooth, you can directly use the smartwatches to answer or make calls, read messages, store contacts, view call history. The smartwatch can set up more message notifications in "GloryFit" APP. You will never miss any calls and messages during meetings, workout and riding.',
-    price: 50,
+    price: 1500,
     brand: "Nerunsa",
     category: "Watch",
     inStock: true,
@@ -169,7 +169,7 @@ export const products = [
         color: "Black",
         colorCode: "#000000",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/e-shop-vid.appspot.com/o/products%2F1695192445608-watch-black.jpg?alt=media&token=4446b901-01ab-4152-8953-e36b22608755",
+          "https://media.istockphoto.com/id/500431893/photo/soccer-ball-on-grass.jpg?s=2048x2048&w=is&k=20&c=EmOmOMaQq48iYOXCxm5bU-HEd_9jl1JFJMwmZ_mt5Fg=",
       },
       {
         color: "Silver",
