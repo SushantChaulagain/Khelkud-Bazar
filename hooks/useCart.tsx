@@ -60,6 +60,8 @@ export const CartContextProvider = (props:Props) => {
 
      }, [cartProducts]);
 
+   
+
      const handleCartQtyIncrease = useCallback (( product:CartProductType)=> {
         let updatedCart;
         if(product.quantity === 99){
