@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Container from "../Container";
 import { Rubik_Bubbles } from "next/font/google";
+import CartCount from "./CartCount";
 
 const rubik = Rubik_Bubbles ({ subsets: ['latin'], weight: ['400'] })
 
@@ -26,7 +27,7 @@ const NavBar = () => {
                 <Link href="/" className={`${rubik.className} text-2xl`}>K-Bazar</Link>
                 <div className="hidden md:block">Search</div>
                 <div className="flex items-center gap-8 md:gap-12">
-                    <div>CartCount</div>
+                   <CartCount/>
                     <div>UserMenu</div>
                 </div>
                 </div>
