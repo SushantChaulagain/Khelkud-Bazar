@@ -58,7 +58,8 @@ const Input: React.FC<InputProps> = ({
         left-4
         peer-placeholder-shown:scale-100
         peer-placeholder-shown:translate-y-0
-        peer-focus:scale-75peer-focus:translate-y-4
+        peer-focus:scale-75
+        peer-focus:translate-y-4
         "
         >{label}</label>
     </div> );
