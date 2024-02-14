@@ -40,13 +40,14 @@ const Input: React.FC<InputProps> = ({
         border-2
         rounded-md
         transition
-        diasbled: opacity-70disabled: cursor-not-allowed
+        diasbled:opacity-70
+        disabled:cursor-not-allowed
         ${errors[id] ? "border-rose-400" : "border-slate-300"}
         ${errors[id] ? "focus:border-rose-400" : "focus:border-slate-300"}
         `}
         />
         <label htmlFor={id}
-        className="absolute 
+        className={`absolute 
         cursor-text
         text-md
         duratin-150
@@ -59,8 +60,9 @@ const Input: React.FC<InputProps> = ({
         peer-placeholder-shown:scale-100
         peer-placeholder-shown:translate-y-0
         peer-focus:scale-75
-        peer-focus:translate-y-4
-        "
+        peer-focus:-translate-y-4
+        ${errors[id] ? "text-rose-500" : "text-slate-400"}
+        `}
         >{label}</label>
     </div> );
 }
