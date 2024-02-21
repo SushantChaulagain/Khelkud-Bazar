@@ -29,10 +29,10 @@ export default NextAuth({
         email: credentials.email
       }
     })
-    if(!user || user.hashedpassword ){
+    if(!user || !user.hashedPassword ){
       throw new Error("Invalid credentials");
     }
-    const isCorrectPassword = await bcrypt.compare(credentials.password, user.hashedpassword);
+    const isCorrectPassword = bcrypt.compare(credentials.password, user.hashedPassword);
 
     if(!isCorrectPassword){
       throw new Error("Invalid credentials");
