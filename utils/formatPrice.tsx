@@ -2,9 +2,10 @@
 export const formatPrice = 
 (amount:number) => {
 
-    return new Intl.NumberFormat ('ne-NP',{
+    const formattedAmount = new Intl.NumberFormat ('en-IN',{
         style: 'currency',
         currency: 'NPR'
     }).format(amount)
+    return formattedAmount.replace('NPR', 'Rs');
 };
  
