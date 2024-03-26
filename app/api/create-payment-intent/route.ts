@@ -73,6 +73,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string,
             const paymentIntent = await stripe.paymentIntents.create({
                 amount: total,
                 currency: 'NPR',
+                description: 'Sports related services',
                 automatic_payment_methods: {enabled: true}
             })
             // create the order
