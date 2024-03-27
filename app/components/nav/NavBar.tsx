@@ -4,6 +4,9 @@ import { Rubik_Bubbles } from "next/font/google";
 import CartCount from "./CartCount";
 import UserMenu from "./UserMenu";
 import { getCurrentUser } from "@/actions/getCurrentUser";
+import CategoryInput from "../inputs/CategoryInput";
+import Categories from "./Categories";
+import SearchBar from "../SearchBar";
 
 const rubik = Rubik_Bubbles ({ subsets: ['latin'], weight: ['400'] })
 
@@ -29,7 +32,7 @@ const NavBar = async () => {
                 md-gap-0
                 ">
                 <Link href="/" className={`${rubik.className} text-2xl`}>K-Bazar</Link>
-                <div className="hidden md:block">Search</div>
+                <div className="hidden md:block"><SearchBar/></div>
                 <div className="flex items-center gap-8 md:gap-12">
                    <CartCount/>
                     <UserMenu currentUser = {currentUser}/>
@@ -37,7 +40,7 @@ const NavBar = async () => {
                 </div>
             </Container>
         </div>
-        
+        <Categories/>
         </div>);
 }
  
